@@ -1,0 +1,78 @@
+/* Color, Font, Background */
+body {
+	background-image:url('../images/subtle_freckles.png');
+} 
+
+#header {position: relative;}
+
+#secondary-menu {
+	font-family: Tallys;
+	position: absolute
+}
+
+#block-system-powered-by span{
+	float: right;
+}
+
+#name-and-slogan {
+	font-size: 2.5vw;
+	font-family: Tallys, sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+#main {
+	top: -2em;
+	padding-top: 0em;
+}
+
+#content {
+	position: relative;
+	font-family: Delicious;
+	top: -2em;
+}
+
+#page {
+	max-width: 1000px;
+}
+
+article header {
+	font-family: Delicious-BoldItalic;
+}
+
+article div {
+	background-color:rgba(50, 15, 50, 0.025);
+	margin: 10px;
+}
+
+/* Table properties */
+
+article * table {
+	background-color:rgba(110, 110, 110, 0.15);
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border-radius: 10px;
+}
+
+article * table * td {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	line-height: 1em;
+}
+
+.sidebars {
+	font-family: Delicious-Italic;
+}
+
+
+@font-face { font-family: Tallys; src: url('fonts/Tallys_15.otf'); }
+@font-face { font-family: Delicious; src: url('fonts/Delicious-Roman.otf'); }
+@font-face { font-family: Delicious-Italic; src: url('fonts/Delicious-Italic.otf'); }
+@font-face { font-family: Delicious-Bold; src: url('fonts/Delicious-Bold.otf'); }
+@font-face { font-family: Delicious-BoldItalic; src: url('fonts/Delicious-BoldItalic.otf'); }
+@font-face { font-family: Delicious-Heavy; src: url('fonts/Delicious-Heavy.otf'); }
+
