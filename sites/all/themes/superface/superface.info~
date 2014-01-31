@@ -67,7 +67,7 @@ stylesheets[all][] = css/superstyles.css
 ; Optionally add some JavaScripts to your theme.
 
 ; scripts[] = js/script.js
- scripts[] = js/superscript.js
+; scripts[] = js/superscript.js
 
 
 ; This section lists the regions defined in Zen's default page.tpl.php and

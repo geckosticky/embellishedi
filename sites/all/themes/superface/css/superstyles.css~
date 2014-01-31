@@ -28,7 +28,7 @@ body {
 }
 
 #main {
-	top: 22em;
+	top: -2em;
 	padding-top: 0em;
 }
 
